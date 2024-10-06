@@ -4,20 +4,19 @@ body {
 
 h1{
 	font-family: optima;
-	font-weight:600;
-	font-size:50px;
+	font-size: 50px;
 }
 
 h2{
 	font-family:optima, arial;
 	font-weight:300;
-	font-size:40px;	
+	font-size: 40px;	
 }
 
 h3{
 	font-family:optima, arial;
 	font-weight:250;
-	font-size:30px;
+	font-size: 30px;
 	text-align:center;
 }
 
@@ -25,7 +24,7 @@ h3{
 p{
 	font-family:arial;
 	font-weight:200;
-	font-size:20px;
+	font-size: 20px;
 }
 
 #heading1{
