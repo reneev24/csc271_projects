@@ -3,19 +3,19 @@ body {
 }
 
 h1{
-	font-family:optima: arial;
+	font-family:courier, arial;
 	font-weight:600;
 	font-size:40 px;
 }
 
 h2{
-	font-family:optima: arial;
+	font-family:courier, arial;
 	font-weight:300;
 	font-size:35 px;	
 }
 
 h3{
-	font-family:optima: arial;
+	font-family:courier, arial;
 	font-weight:250;
 	font-size:30 px;
 	text-align:center;
@@ -23,13 +23,13 @@ h3{
 
 
 p{
-	font-family:optima: arial;
+	font-family:courier, arial;
 	font-weight:200;
 	font-size:25 px;
 }
 
 #heading1{
-	text-align:center;
+	text-align;center;
 }
 
 .imgcenter{
@@ -39,7 +39,7 @@ p{
 }
 
 .p-center{
-	font-family:optima: arial;
+	font-family:courier, arial;
 	font-weight:250;
 	font-size:30 px;
 	text-align:center;
