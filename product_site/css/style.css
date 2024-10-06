@@ -3,7 +3,7 @@ body {
 }
 
 h1{
-	font-family:courier, arial;
+	font-family: arial;
 	font-weight:600;
 	font-size:40 px;
 }
@@ -23,7 +23,7 @@ h3{
 
 
 p{
-	font-family:courier, arial;
+	font-family:arial;
 	font-weight:200;
 	font-size:25 px;
 }
@@ -39,7 +39,7 @@ p{
 }
 
 .p-center{
-	font-family:courier, arial;
+	font-family:arial;
 	font-weight:250;
 	font-size:30 px;
 	text-align:center;
