@@ -3,19 +3,19 @@ body {
 }
 
 h1{
-	font-family: arial;
+	font-family: optima;
 	font-weight:600;
 	font-size:40 px;
 }
 
 h2{
-	font-family:courier, arial;
+	font-family:optima, arial;
 	font-weight:300;
 	font-size:35 px;	
 }
 
 h3{
-	font-family:courier, arial;
+	font-family:optima, arial;
 	font-weight:250;
 	font-size:30 px;
 	text-align:center;
@@ -39,7 +39,7 @@ p{
 }
 
 .p-center{
-	font-family:arial;
+	font-family:optima;
 	font-weight:250;
 	font-size:30 px;
 	text-align:center;
