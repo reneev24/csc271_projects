@@ -1,0 +1,68 @@
+body {
+	background-color: rgb(156,173,207);
+}
+
+h1{
+	font-family:optima: arial;
+	font-weight:600;
+	font-size:40 px;
+}
+
+h2{
+	font-family:optima: arial;
+	font-weight:300;
+	font-size:35 px;	
+}
+
+h3{
+	font-family:optima: arial;
+	font-weight:250;
+	font-size:30 px;
+	text-align:center;
+}
+
+
+p{
+	font-family:optima: arial;
+	font-weight:200;
+	font-size:25 px;
+}
+
+#heading1{
+	text-align:center;
+}
+
+.imgcenter{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.p-center{
+	font-family:optima: arial;
+	font-weight:250;
+	font-size:30 px;
+	text-align:center;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(139, 162, 168);
+}
+
+a:active {
+  color: blue;
+} 
+
+
+
+
+
+
