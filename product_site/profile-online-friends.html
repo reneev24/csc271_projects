@@ -2,6 +2,10 @@
 <html lang="en">
 <head><meta charset="UTF-8">
   <title>Personal Profile</title>
+  <meta name="keywords"
+    content="online friends"/>
+  <meta name="description"
+    content="Discusses what the profile page is and displays the user's own profile"/>
   <link href="css/style.css" type="text/css"
     rel="stylesheet"/>
 </head>
@@ -21,8 +25,10 @@
   <div class="right-col">
     <div class="color">
 
-<h1>Your Profile!</h1>
-<p1>Here, you can freely express yourself. You can add photos, videos, and whatever else you want to share about yourself! Besides yourself, you can locate your connections and the friends you've made. This page is all about you, so do what you think exhibits you best!</p1>
+<h1 id="heading1">Your Profile!</h1>
+<meta name="keywords"
+    content="online friends"/>
+<p1>Here, you can freely express yourself. You can add photos, videos, and whatever else you want to share about yourself! Besides yourself, you can locate your connections and the <a href="messages.html">online friends</a> you've made. This page is all about you, so do what you think exhibits you best!</p1> 
 
 </div>
   </div>
@@ -34,10 +40,10 @@
 
 
 <h3>Example:</h3>
-<img src="images/me.jpg" alt="a picture of two friends at a corner store" width="500"
-height="500" class="imgcenter"/>  
-<img src="images/karoake.jpg" alt="a karoake room" width="500"
-height="500" class="imgcenter"/>
+<img src="images/me.jpg" alt="a picture of two friends at a corner store" width="300"
+height="400" class="imgcenter"/>  
+<img src="images/karoake.jpg" alt="a karoake room" width="300"
+height="400" class="imgcenter"/>
 <p class="p-center">Age: 21 Location: Cranston, RI</p>
 <p class="p-center">Hi! My name is Renee. I like to do random, spontaneous things. I also love karaoke!</p>
 
@@ -45,12 +51,14 @@ height="500" class="imgcenter"/>
 <p2>
 <form action="profile.html" method="post"
   <label for="username">Username:</label>
-  <input type="text" name="username"
+  <input id=username type="text" name="username"
     required="required"/></title><br/>
   <label for="password">Password:</label>
-  <input type="password" name="password"
+  <input id="password" type="password" name="password"
   	required="required"/>
-  <input type="submit" value="Submit"/>
+  <label for="submit">Submit</label>
+  <input id="submit" type="submit" value="Submit"/>
+
 </form>
 
 </div>

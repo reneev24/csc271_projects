@@ -44,8 +44,8 @@ a:link{
   color: white;
 }
 
-a:visited {
-  color: white;
+a:visited{
+  color: lightskyblue;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 a:active {
-  color: blue;
+  color: white;
 } 
 
 .header{
@@ -64,9 +64,9 @@ a:active {
 
 .header a{
 	float:left;
-	color:#AED8E5;
+	color:rgb(25, 25, 112);
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 16px;
+	font-size: 20px;
 	text-decoration: none;
 	padding-left:12px;
 	padding-right:12px;
@@ -137,5 +137,22 @@ img{
 	 }
 }
 
+input[type=text]{
+  width: 50%;
+  padding: 10px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+
+}
+
+iframe{
+	height:250px;
+	width:300px;
+}
 
 
