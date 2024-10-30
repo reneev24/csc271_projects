@@ -17,19 +17,19 @@ var totalfriends = (friends + newfriends);
 
 
 //shows name 
-var nameElement = document.getElementById('name');
+var nameElement = document.getElementById("name");
 element.innerHTML = name;
 
 //shows age
-var ageElement = document.getElementsByClassName('age')[0];
+var ageElement = document.getElementsByClassName("age")[0];
 element.innerHTML = age;
 
 //shows location
-var locationElement = document.getElementsByClassName('location')[0];
+var locationElement = document.getElementsByClassName("location")[0];
 element.innerHTML = location;
 
 //shows descr
-var paragraphElement = document.getElementsByTagName('p');
+var paragraphElement = document.getElementsByTagName("p");
 paragraphElement[0].textContent = descr;
 paragraphElement[1].innerHTML += "<strong>" + More Info: + "</strong>"
 
