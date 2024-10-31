@@ -37,7 +37,7 @@ paragraphElement[1].innerHTML += "<strong>" + More Info: + "</strong>"
 var friendsElement = document.getElementById('friends');
 element.innerHTML += "Friends:" + friends + "New Friends:" + newfriends + "Total Friends:" + totalfriends;
 
-const el = document.querySelector(".name");
+const name = document.querySelector(".name");
 
 
 
