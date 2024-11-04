@@ -4,15 +4,19 @@ var age = prompt("How old are you?");
 var location = prompt("Where are you from?");
 var descr = prompt("What else do you want others to know about you?");
 
-//user info is displayed
+//uses user input to display info
 println("Name:" + name);
 println("Age:" + age);
 println("Location:" + location);
-println("..." + descr);
+println("" + descr);
+
+//prints out variable type
+println("Name is a" + typeof name);
+println("Age is a" + typeof age);
 
 //calculation for amount of friends
-var friends = 2
-var newfriends = 1
+var friends = 2;
+var newfriends = 1;
 var totalfriends = (friends + newfriends);
 
 
@@ -38,6 +42,10 @@ var friendsElement = document.getElementById('friends');
 element.innerHTML += "Friends:" + friends + "New Friends:" + newfriends + "Total Friends:" + totalfriends;
 
 const name = document.querySelector(".name");
+
+
+
+
 
 
 
