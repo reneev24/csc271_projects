@@ -155,4 +155,20 @@ iframe{
 	width:300px;
 }
 
+.review1{
+	font-family: 'Courier New', monospace;
+	font-size:20px;
+}
+
+.rating{
+	font-size: 15px;
+    color: gold;
+    margin: 10px 0;
+}
+
+.web-review{
+	width:100%;
+	background-color:#7B84DE;
+	padding-right:20px;
+}
 
