@@ -1,19 +1,19 @@
 /* shows users' reviews. Use for loops because I want to run through reviews 
 a specific amount of times */
 
-var reviews;
-reviews = ['This website helped me so much!','10/10 website','With more improvment, this website will be huge']
+var userReviews;
+userReviews = ['This website helped me so much! - @janedoe1','10/10 website - @nick_matt','This website will be huge one day - @nessa2']
 
 var webRatings;
-webRatings = ['4','5', '3']
+webRatings = [4,5,3]
 
 const webReviews = document.querySelectorAll('div.web-review');
 
 for(let i = 0; i < webReviews.length; i++) {
 	var reviews = webReviews[i].querySelector('div.review1');
-	reviews.textContent = reviews[i];
+	reviews.textContent = userReviews[i];
 
-	var webRatings = webReviews[i].querySelector('div.rating');
+	var ratings = webReviews[i].querySelector('div.rating');
 	var stars = "";
 
 	for (let j = 0; j < 5; j++){
@@ -23,9 +23,12 @@ for(let i = 0; i < webReviews.length; i++) {
 		else {
 			stars += "☆";
 		}
+
 	}
 
-webRatings.textContent = stars;
+ratings.textContent = stars;
 
 }
+
+
 
