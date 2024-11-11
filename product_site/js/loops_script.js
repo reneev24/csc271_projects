@@ -30,5 +30,8 @@ ratings.textContent = stars;
 
 }
 
+function isValidEmail(email){
+	return email.includes('@');
+}
 
 

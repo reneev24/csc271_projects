@@ -32,3 +32,5 @@ if(effort == 'yes'){
 else{
 	matchNode.innerText = "Not a Match!";
 }
+
+
