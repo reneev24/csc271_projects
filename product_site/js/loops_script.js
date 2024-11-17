@@ -30,8 +30,20 @@ ratings.textContent = stars;
 
 }
 
-function isValidEmail(email){
-	return email.includes('@');
+
+
+function validEmail(){
+	const userEmail = document.getElementById('email').value;
+	const feedbackElement = document.getElementById('submit');
+	const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+	if (emailRegex.test(emailInput)){
+		feedbackElement.textContent = "";
+	} else{
+		feedbackElement.textContent = "Enter a valid email adress.";
+		
+	}
 }
+
 
 

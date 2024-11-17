@@ -33,7 +33,7 @@ height="300" class="imgcenter"/>
 <h2>What is ONE+ONE?</h2>
 <meta name="keywords"
     content="making new friends"/>
-<p>ONE+ONE is a platform that makes the procss of making new friends a simpler one whether it is<em>locally</em> or <em>internationally</em>. 
+<p>ONE+ONE is a platform that makes the procss of making new friends a simpler one whether it is <em>locally</em> or <em>internationally</em>. 
 It helps to simplify the problem of finding and socializing with others as it brings <a href="explore.html">new possible connections</a>right to the user.
 To quicken the process, ONE+ONE will put people that the user would more likely be interested in on the top their page.<br/>
 One reason we're different from other platforms is our use of facial recongition. This will help prevent users from being
@@ -108,14 +108,15 @@ height="150"/>
 <h4>Author Details</h4>
 <ul>
   <li>Renee Vargas</li>
-  <li><a href="mailto:rvargase@gmail.com" target="_blank">rvargas@uri.edu</a></li>
+  <li><a href="mailto:rvargas@gmail.com" target="_blank">rvargas@uri.edu</a></li>
 </ul>
 
-<form action="index.html" method="get">
-<p>Join for updates on our website:</p>
-  <label for="email">E-mail</label>
-  <input id=email type="text" name="email" />
-  <input type="submit" name="submit" value="Join" />
+<p>Join for updates on our website!</p>
+<form id="registrationForm">
+  <label for="userEmail">Email:</label>
+  <input type="email" id="userEmail" oninput="validateuserEmail()">
+  <input type="submit" name="submit" value="Join"/>
+  <span id="emailFeedback" style="color: red;"></span>
 </form>
 
 <script src="js/loops_script.js"></script>

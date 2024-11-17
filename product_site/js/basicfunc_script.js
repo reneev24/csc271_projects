@@ -7,6 +7,7 @@ messages();
 
 //function with two parameters (new messages + current messages)
 
+/*
 var newMes = 1;
 var oldMes = 2;
 
@@ -17,3 +18,15 @@ var userMessages = function (mes, old){
 };
 
 var totalMessages = userMessages(newMes, oldMes);
+*/
+
+var oldmMsg = 1;
+var newMsg = 2;
+
+function userMessages(oldMsg, newMsg){
+	return oldMsg + newMsg
+}
+
+	let result = userMessages(oldmMsg, newMsg)
+
+console.log("Messages:", result);
