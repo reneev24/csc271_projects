@@ -30,6 +30,33 @@ ratings.textContent = stars;
 
 }
 
+/* using do while loop to check email validation
+until the condition is met */
+
+var validMail = "@"; //condition 
+var email;
+
+const userEmail = document.querySelectorAll('div.web-email');
+
+do {
+  email = prompt("Enter your email:");
+
+
+  if (email && email.includes("@")) {
+    isValid = true; 
+  } 
+  else {
+    alert("Invalid. Please include '@'."); 
+  }
+} 
+
+  while (!isValid); 
+
+alert("Email is valid.");
+
+
+
+
 
 
 function validEmail(){
