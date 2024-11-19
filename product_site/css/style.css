@@ -172,3 +172,21 @@ iframe{
 	padding-right:20px;
 }
 
+.userProfile{
+	width:200px;
+	padding:15px;
+	border: 1px solid rgb(99, 79, 113)
+	text-align: center;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.userProfile img{
+	width: 200px;
+	height: 200px;
+	border-radius; 50%;
+}
+
+.userProfile: hover{
+	transform:scale(2.05);
+	box-shadow: 0 2px 4px rgb(193, 189, 196);
+}
