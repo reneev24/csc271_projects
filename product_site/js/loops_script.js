@@ -54,11 +54,6 @@ do {
 
 alert("Email is valid.");
 
-
-
-
-
-
 function validEmail(){
 	const userEmail = document.getElementById('email').value;
 	const feedbackElement = document.getElementById('submit');
