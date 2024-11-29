@@ -190,3 +190,18 @@ iframe{
 	transform:scale(2.05);
 	box-shadow: 0 2px 4px rgb(193, 189, 196);
 }
+
+.message{
+	margin-bottom: 10px;
+	padding:5px;
+	border:8px solid gray;
+}
+
+.sent{
+	background-color: white;
+	color: black;
+}
+.received{
+	background-color: white;
+	color: black;
+}
