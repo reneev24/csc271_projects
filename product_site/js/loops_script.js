@@ -31,7 +31,7 @@ ratings.textContent = stars;
 }
 
 /* using do while loop to check email validation
-until the condition is met */
+until the condition is met
 
 var validMail = "@"; //condition 
 var email;
@@ -66,6 +66,7 @@ function validEmail(){
 		
 	}
 }
+ */
 
 
 
