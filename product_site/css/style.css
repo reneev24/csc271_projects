@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(156,173,207);
+	background-color: lightblue;
 }
 
 h1{
@@ -42,23 +42,25 @@ p{
 
 a:link{
   color: white;
+  text-decoration:none;
 }
 
 a:visited{
-  color: lightskyblue;
+  color: darkgreen;
 }
 
 a:hover {
-  color: rgb(139, 162, 168);
+  color: white;
+  text-decoration:underline;
 }
 
 a:active {
-  color: white;
+  color: green;
 } 
 
 .header{
 	overflow:hidden;
-	background-color: #7B84DE;
+	background-color: lightblue;
 	padding: 5px;
 }
 
@@ -81,7 +83,7 @@ a:active {
 }
 
 .header-right a:hover{
-	color: white;
+	color: green;
 }
 
 #logo{
@@ -97,13 +99,13 @@ a:active {
 .right-col{
 	float:left;
 	width:75%;
-	background-color:#8F99B6;
+	background-color:lightblue;
 	padding-right:20px;
 }
 
 
 .color{
-	background-color:#8F99B6;
+	background-color:lavender;
 	padding:20px;
 	margin-top:20px;
 }
@@ -168,14 +170,14 @@ iframe{
 
 .web-review{
 	width:100%;
-	background-color:#7B84DE;
+	background-color:lightblue;
 	padding-right:20px;
 }
 
 .userProfile{
 	width:200px;
 	padding:15px;
-	border: 1px solid rgb(99, 79, 113)
+	border: 1px solid rgb(99, 79, 113);
 	text-align: center;
 	transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -183,10 +185,10 @@ iframe{
 .userProfile img{
 	width: 200px;
 	height: 200px;
-	border-radius; 50%;
+	border-radius: 50%;
 }
 
-.userProfile: hover{
+.userProfile hover{
 	transform:scale(2.05);
 	box-shadow: 0 2px 4px rgb(193, 189, 196);
 }
