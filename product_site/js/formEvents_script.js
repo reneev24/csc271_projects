@@ -11,7 +11,7 @@ usernameInput.addEventListener('focus', function(){
 usernameInput.addEventListener('blur', function(){
 	var nameValue = usernameInput.value.trim();
 	if (nameValue === ''){
-		usernameInput.style.borderColor = 'black'
+		usernameInput.style.borderColor = 'black';
 		messageDiv.innerHTML = 'Please enter a username with 8-14 characters.'
 	} else if (nameValue.split('').length < 2){
 		usernameInput.style.borderColor = 'black';
